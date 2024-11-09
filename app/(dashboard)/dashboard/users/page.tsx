@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const Users = () => {
   return (
@@ -13,7 +13,7 @@ const Users = () => {
         <li><Link href="/dashboard/users/4">User 4</Link></li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Users
+export default Users;
