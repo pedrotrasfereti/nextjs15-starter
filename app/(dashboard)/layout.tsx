@@ -13,7 +13,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-const Layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
+const DashboardLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <html lang="en">
       <body
@@ -25,4 +25,4 @@ const Layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   );
 };
 
-export default Layout;
+export default DashboardLayout;

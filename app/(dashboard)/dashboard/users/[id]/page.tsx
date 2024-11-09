@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Page = ({ params }: { params: { id: string } }) => {
+const UserDetails = ({ params }: { params: { id: string } }) => {
   const { id } = params;
 
   return (
@@ -12,4 +12,4 @@ const Page = ({ params }: { params: { id: string } }) => {
   );
 };
 
-export default Page;
+export default UserDetails;
