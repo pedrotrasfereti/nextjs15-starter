@@ -8,7 +8,11 @@ const Books = async () => {
     <main>
       <h1 className="text-3xl font-black">Books</h1>
 
-      <code>{JSON.stringify(data)}</code>
+      <ul>
+        {data.map((book: { id: number, title: string }) => (
+          <li key={book.id}>{book.id}. {book.title}</li>
+        ))}
+      </ul>
     </main>
   )
 };
