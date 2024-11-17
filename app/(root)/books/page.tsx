@@ -5,10 +5,10 @@ const Books = async () => {
   const data = await response.json();
 
   return (
-    <main>
+    <main className="p-4">
       <h1 className="text-3xl font-black">Books</h1>
 
-      <ul>
+      <ul className="p-4">
         {data.map((book: { id: number, title: string }) => (
           <li key={book.id}>{book.id}. {book.title}</li>
         ))}
